@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import HeaderMenu from "./HeaderMenu"
 
 const StyledHeader = styled.header`
 background-color: var(--color-grey-0);
@@ -8,7 +9,7 @@ border-bottom: 1px solid var(--color-gray-100);
 function Header() {
     return (
         <StyledHeader>
-           Header 
+           <HeaderMenu/> 
         </StyledHeader>
     )
 }
